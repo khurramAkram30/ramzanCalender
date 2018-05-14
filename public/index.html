@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<style>
+    .red{
+        background-color: rgb(10, 68, 134);
+        color: white;
+    }
+    .center{
+      text-align: center;
+    }
+</style>
+</head>
+<body>
+  <h1>Ramzan Calender</h1>
+  <br>
+  <div class="center">
+  <label for="search">Search</label>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+</br>
+<br>  
+<br>  
+</div>
+    <table class="table" id="myTable">
+    <thead> 
+    <tr class="red">
+        <th >Ramzan Date</th>
+        <th>English Date</th>
+        <th>Day</th>
+        <th>Sehri(fajar)</th>
+        <th>Sun Rise</th>
+        <th>Zohr</th>
+        <th>Asar</th>
+        <th>Magrib(iftar)</th>
+        <th>Isha</th>
+    
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+            <td>1</td>
+            <td>17/May/2018</td>
+            <td>Thursday</td>
+            <td>04:35:05 AM</td>
+            <td>05:56:32 AM</td>
+            <td>12:28:55 PM</td>
+            <td>05:07:31 PM</td>
+            <td>07:01:37 PM</td>
+            <td>08:23:17 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>2</td>
+            <td>18/May/2018</td>
+            <td>Friday</td>
+            <td>04:34:09 AM</td>
+            <td>05:55:48 AM</td>
+            <td>12:28:48 PM</td>
+            <td>05:07:37 PM</td>
+            <td>07:02:07 PM</td>
+            <td>08:23:59 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>3</td>
+            <td>19/May/2018</td>
+            <td>saturday</td>
+            <td>04:33:14 AM</td>
+            <td>05:55:06 AM</td>
+            <td>12:28:41 PM</td>
+            <td>05:07:45 PM</td>
+            <td>07:02:37 PM</td>
+            <td>08:24:41 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>4</td>
+            <td>20/May/2018</td>
+            <td>sunday</td>
+            <td>04:32:19 AM</td>
+            <td>05:54:24 AM</td>
+            <td>12:28:35 PM</td>
+            <td>05:07:52 PM</td>
+            <td>07:03:06 PM</td>
+            <td>08:25:23 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>5</td>
+            <td>21/May/2018</td>
+            <td>monday</td>
+            <td>04:31:26 AM</td>
+            <td>05:53:43 AM</td>
+            <td>12:28:30 PM</td>
+            <td>05:07:59 PM</td>
+            <td>07:03:36 PM</td>
+            <td>08:26:06 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>6</td>
+            <td>22/May/2018</td>
+            <td>tuesday</td>
+            <td>04:30:33 AM</td>
+            <td>05:53:03 AM</td>
+            <td>12:28:25 PM</td>
+            <td>05:08:07 PM</td>
+            <td>07:04:07 PM</td>
+            <td>08:26:48 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>7</td>
+            <td>23/May/2018</td>
+            <td>wednesday</td>
+            <td>04:29:42 AM</td>
+            <td>05:52:24 AM</td>
+            <td>12:28:21 PM</td>
+            <td>05:08:15 PM</td>
+            <td>07:04:37 PM</td>
+            <td>08:27:31 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>8</td>
+            <td>24/May/2018</td>
+            <td>Thursday</td>
+            <td>04:28:51 AM</td>
+            <td>05:51:46 AM</td>
+            <td>12:28:17 PM</td>
+            <td>05:08:23 PM</td>
+            <td>07:05:07 PM</td>
+            <td>08:28:14 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>9</td>
+            <td>25/May/2018</td>
+            <td>friday</td>
+            <td>04:28:02 AM</td>
+            <td>05:51:09 AM</td>
+            <td>12:28:14 PM</td>
+            <td>05:08:31 PM</td>
+            <td>07:05:38 PM</td>
+            <td>08:28:57 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>10</td>
+            <td>26/May/2018</td>
+            <td>saturday</td>
+            <td>04:27:14 AM</td>
+            <td>05:50:33 AM</td>
+            <td>12:28:12 PM</td>
+            <td>05:08:40 PM</td>
+            <td>07:06:08 PM</td>
+            <td>08:29:40 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>11</td>
+            <td>27/May/2018</td>
+            <td>sunday</td>
+            <td>04:26:26 AM</td>
+            <td>05:49:59 AM</td>
+            <td>12:28:10 PM</td>
+            <td>05:08:48 PM</td>
+            <td>07:06:39 PM</td>
+            <td>08:30:24 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>12</td>
+            <td>28/May/2018</td>
+            <td>monday</td>
+            <td>04:25:40 AM</td>
+            <td>05:49:25 AM</td>
+            <td>12:28:09 PM</td>
+            <td>05:08:57 PM</td>
+            <td>07:07:10 PM</td>
+            <td>08:31:07 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>13</td>
+            <td>29/May/2018</td>
+            <td>tuesday</td>
+            <td>04:24:55 AM</td>
+            <td>05:48:53 AM</td>
+            <td>12:28:08 PM</td>
+            <td>05:09:07 PM</td>
+            <td>07:07:41 PM</td>
+            <td>08:31:50 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>14</td>
+            <td>30/May/2018</td>
+            <td>wednesday</td>            
+            <td>04:24:11 AM</td>
+            <td>05:48:21 AM</td>
+            <td>12:28:08 PM</td>
+            <td>05:09:16 PM</td>
+            <td>07:08:12 PM</td>
+            <td>08:32:34 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>15</td>
+            <td>31/May/2018</td>
+            <td>Thursday</td>            
+            <td>04:23:29 AM</td>
+            <td>05:47:51 AM</td>
+            <td>12:28:08 PM</td>
+            <td>05:09:26 PM</td>
+            <td>07:08:42 PM</td>
+            <td>08:33:17 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>16</td>
+            <td>1/june/2018</td>
+            <td>friday</td>            
+            <td>04:22:47 AM</td>
+            <td>05:47:22 AM</td>
+            <td>12:28:09 PM</td>
+            <td>05:09:36 PM</td>
+            <td>07:09:13 PM</td>
+            <td>08:34:00 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>17</td>
+            <td>2/june/2018</td>
+            <td>saturday</td>            
+            <td>04:22:07 AM</td>
+            <td>05:46:54 AM</td>
+            <td>12:28:11 PM</td>
+            <td>05:09:46 PM</td>
+            <td>07:09:44 PM</td>
+            <td>08:34:43 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>18</td>
+            <td>3/june/2018</td>
+            <td>sunday</td>            
+            <td>04:21:28 AM</td>
+            <td>05:46:27 AM</td>
+            <td>12:28:13 PM</td>
+            <td>05:09:57 PM</td>
+            <td>07:10:15 PM</td>
+            <td>08:35:26 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>19</td>
+            <td>4/june/2018</td>
+            <td>monday</td>            
+            <td>04:20:50 AM</td>
+            <td>05:46:02 AM</td>
+            <td>12:28:16 PM</td>
+            <td>05:10:07 PM</td>
+            <td>07:10:45 PM</td>
+            <td>08:36:08 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>20</td>
+            <td>5/june/2018</td>
+            <td>tuesday</td>            
+            <td>04:20:14 AM</td>
+            <td>05:45:37 AM</td>
+            <td>12:28:19 PM</td>
+            <td>05:10:18 PM</td>
+            <td>07:11:16 PM</td>
+            <td>08:36:51 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>21</td>
+            <td>6/june/2018</td>
+            <td>wednesday</td>            
+            <td>04:19:39 AM</td>
+            <td>05:45:14 AM</td>
+            <td>12:28:23 PM</td>
+            <td>05:10:29 PM</td>
+            <td>07:11:46 PM</td>
+            <td>08:37:32 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>22</td>
+            <td>7/june/2018</td>
+            <td>Thursday</td>            
+            <td>04:19:05 AM</td>
+            <td>05:44:52 AM</td>
+            <td>12:28:27 PM</td>
+            <td>05:10:41 PM</td>
+            <td>07:12:17 PM</td>
+            <td>08:38:14 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>23</td>
+            <td>8/june/2018</td>
+            <td>friday</td>            
+            <td>04:18:33 AM</td>
+            <td>05:44:31 AM</td>
+            <td>12:28:32 PM</td>
+            <td>05:10:52 PM</td>
+            <td>07:12:47 PM</td>
+            <td>08:38:55 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>24</td>
+            <td>9/june/2018</td>
+            <td>saturday</td>            
+            <td>04:18:02 AM</td>
+            <td>05:44:11 AM</td>
+            <td>12:28:37 PM</td>
+            <td>05:11:04 PM</td>
+            <td>07:13:16 PM</td>
+            <td>08:39:36 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>25</td>
+            <td>10/june/2018</td>
+            <td>sunday</td>            
+            <td>04:17:32 AM</td>
+            <td>05:43:53 AM</td>
+            <td>12:28:43 PM</td>
+            <td>05:11:16 PM</td>
+            <td>07:13:46 PM</td>
+            <td>08:40:17 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>26</td>
+            <td>11/june/2018</td>
+            <td>monday</td>            
+            <td>04:17:04 AM</td>
+            <td>05:43:35 AM</td>
+            <td>12:28:49 PM</td>
+            <td>05:11:28 PM</td>
+            <td>07:14:15 PM</td>
+            <td>08:40:56 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>27</td>
+            <td>12/june/2018</td>
+            <td>tuesday</td>            
+            <td>04:16:38 AM</td>
+            <td>05:43:19 AM</td>
+            <td>12:28:56 PM</td>
+            <td>05:11:40 PM</td>
+            <td>07:14:44 PM</td>
+            <td>08:41:36 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>28</td>
+            <td>13/june/2018</td>
+            <td>wednesday</td>            
+            <td>04:16:12 AM</td>
+            <td>05:43:04 AM</td>
+            <td>12:29:03 PM</td>
+            <td>05:11:53 PM</td>
+            <td>07:15:13 PM</td>
+            <td>08:42:15 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>29</td>
+            <td>14/june/2018</td>
+            <td>Thursday</td>            
+            <td>04:15:49 AM</td>
+            <td>05:42:51 AM</td>
+            <td>12:29:10 PM</td>
+            <td>05:12:06 PM</td>
+            <td>07:15:42 PM</td>
+            <td>08:42:53 PM</td>
+          </tr>
+                              
+                              <tr>
+            <td>30</td>
+            <td>15/june/2018</td>
+            <td>friday</td>            
+            <td>04:15:26 AM</td>
+            <td>05:42:38 AM</td>
+            <td>12:29:18 PM</td>
+            <td>05:12:19 PM</td>
+            <td>07:16:10 PM</td>
+            <td>08:43:30 PM</td>
+          </tr>
+                              
+                  
+    </tr>
+</tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
